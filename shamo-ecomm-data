@@ -1,0 +1,32 @@
+User
+1. username
+2. phone_number
+3. roles
+
+Product Category
+1. name
+
+Product
+1. name
+2. price
+3. description
+4. tags
+5. Product Category
+
+Product Galery
+1. Product
+2. url
+
+Transaction
+1. User
+2. address
+3. payment_method
+4. total_price
+5. shipping_total
+6. status
+
+Transaction Detail
+1. User
+2. Product
+3. Transaction
+4. qty
